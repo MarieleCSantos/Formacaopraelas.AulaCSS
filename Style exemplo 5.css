@@ -1,0 +1,57 @@
+* {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* Exemplo de formatação dos parágrafos
+#primeiro {
+  border: 1px solid green;
+  margin: 30px;
+}
+
+.segundo {
+  border: 5px solid black;
+  padding: 15px;
+} */
+
+/* Pode-se também formatar varios seletores ao mesmo tempo com a mesma formatação */
+#primeiro,
+.segundo {
+  border: 5px solid black;
+  padding: 15px;
+  margin: 5px;
+}
+
+/*"navigation nav span" ele procura um "span" que esteja dentro de um "nav" que esteja dentro de um "navigation"
+"text-decoration: underline;" - deixa o texto sublinhado
+"cursor: pointer" - aparece uma mãozinha quando passa o mouse por cima */
+.navigation nav span {
+  color: indigo;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+/* "hover" quando passamos o mouse em cima ele faz alguma animação (vai no seletor)
+"background-color" - cor do fundo do botão
+"transition" - faz uma transição suave da cor em 300ms (vai no seletor direto, nao no hover)*/
+
+nav span:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: red;
+}
+
+/* Ao colocar o seletor ">" ele seleciona os filhos diretos */
+
+.segundo > p {
+  color: green;
+}
+
+/* Foi colocado no HTML um estilo inline ocultando as duas últimas frases, para reaparecer colocamos o "!important". 
+O "inline" tem prioridade, mas o "!important" tem mais prioridade do que ele. */
+.segundo > div {
+  display: block !important;
+}

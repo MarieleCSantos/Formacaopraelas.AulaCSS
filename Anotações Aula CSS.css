@@ -1,0 +1,44 @@
+/* CSS */
+
+/* Assim como o HTML não é uma linguagem de programação. CSS é uma folha de estilos */
+/* CSS = Cascading Style Sheets (Folha de Estilo em Cascatas)*/
+
+/* Deve ser colocado o ; */
+/* Funciona em cascata, ou seja, se mais de um valor for atribuído à mesma TAG ele exibe o último valor atribuído*/
+
+/*Responsividade: propriedade do site de funcionar em diferentes dispositivos adaptando seu conteúdo aos tamanhos de tela. Se pensa primeiro em telas maiores e depois vai reduzindo. Levar em consideração:
+- manter o código limpo
+- evitar estilos inlines ou seja, é preferível definir estilos usando seletores
+- use grids flexíveis e flexbox
+- evite estilos absolutos (evitar position absolut)
+- use media querys - delimita o estilo do tablet, do desktop, etc
+
+Vantagens:
+- bom para sites com muito conteúdo, empresas e apresentações, formulários
+
+Desvantagens:
+- menor ranqueamento google
+- talvez a experiência mobile não seja tão boa
+*/
+
+/*"Mobile first": pensamos primeiro no mobile e em seguida vamos escalando para as telas maiores. 
+Vantagens:
+- otimização do carregamento
+- melhor experiência de usuário mobile
+- melhor ranqueamento no google
+
+Desvantagens:
+- Não é apropriado pra sites com muita informação
+- experiência no desktop pode nao ser tao boa */
+
+/*Tipos de estilos. 3 formas:
+- tag style
+- inline
+- arquivo CSS */
+
+/* Seletores em CSS
+Vão além das classes, tags e IDs
+* - seleciona todo o código 
+Pode-se também formatar varios seletores ao mesmo tempo com a mesma formatação 
+Ao selecionar uma div colocar o nome da div + "nav" + "span" para selecionar (sem vírgulas)
+seletor ">" altera os filhos diretos (o restante ficou encapsulado) */

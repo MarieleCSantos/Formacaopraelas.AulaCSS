@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+/* Porém, o texto ficou muito largo, desta forma vamos aplicar uma propriedade de 
+"max-width" - é a máxima largura 
+porém, ele centraliza na nova largura máxima e não no centro da página, para isso precisamos de:
+"margin: 0 auto"
+*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* "Display: none" - faz o texto desaparecer (seletor p)
+"Display: block" - faz o texto aparecer (seletor p)
+"Display: inline - fica tudo na mesma linha (seletor p)
+"Display: flex" - divide o texto em colunas (deve ser colocado no container main, principal) */
+
+/* mudando o alinhamento para justificado - "justify", porém fica esquisito, então usamos o
+"padding" - dá uma contornada no elemento para ele não "encostar" nos outros*/
+p {
+  text-align: justify;
+  padding: 0 10px;
+}
+
+/* Modificando o estilo da lista
+"list-style: none" - retira os bullet point
+"justify-content: center" justifica a lista */
+.lista_footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: ;
+}
+
+/* "text-decoration: none;" - retira os sublinhados do texto */
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+/* colocamos o "padding" no li, pois se colocasse no a criaria uma área clicável em volta da palavra */
+li {
+  padding: 10px;
+}
